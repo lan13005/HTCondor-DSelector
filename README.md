@@ -10,6 +10,6 @@ What this code is trying to achieve
 
 
 they way you should run things
-./setupFolders.py
-condor_submit submit.main
-./clean.py
+- ./setupFolders.py
+- condor_submit submit.main
+- ./clean.py

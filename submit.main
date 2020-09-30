@@ -1,0 +1,14 @@
+########################
+# Submit description file for main
+########################
+executable     = run.py
+universe       = vanilla 
+getenv         = true
+output         = condor/$(Process)/condor.out                
+error          = condor/$(Process)/condor.error             
+log            = condor/$(Process)/condor.log                                                    
+
+Arguments      = $(Process)
+accounting_group = group_local
+
+queue 10
